@@ -15,12 +15,9 @@ class Solution:
 s1 = input("Enter first string: ")
 s2 = input("Enter second string: ")
 
-# 2. Tạo instance
 solution_instance = Solution()
 
-# 3. Gọi hàm với input đã lấy
 merged_string = solution_instance.mergeAlternately(s1, s2)
 
-# 4. In kết quả trả về
 print("Kết quả đã trộn:", merged_string)   
         
